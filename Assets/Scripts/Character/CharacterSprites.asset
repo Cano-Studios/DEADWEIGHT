@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e5a4a75bacb577448834b0714215e5f, type: 3}
+  m_Name: CharacterSprites
+  m_EditorClassIdentifier: 
+  Blue_Bodies:
+  - {fileID: 3966200540476762195, guid: 51e05abdcb41eb141952f5c6a91bb468, type: 3}
+  - {fileID: -2302157740246040841, guid: 51e05abdcb41eb141952f5c6a91bb468, type: 3}
+  - {fileID: 5224764372048608625, guid: 51e05abdcb41eb141952f5c6a91bb468, type: 3}
+  - {fileID: 192157495245433958, guid: 51e05abdcb41eb141952f5c6a91bb468, type: 3}
+  Green_Bodies:
+  - {fileID: -5233749646232849893, guid: 51e05abdcb41eb141952f5c6a91bb468, type: 3}
+  - {fileID: -1110677780048545796, guid: 51e05abdcb41eb141952f5c6a91bb468, type: 3}
+  - {fileID: 1819358636121701995, guid: 51e05abdcb41eb141952f5c6a91bb468, type: 3}
+  - {fileID: 2767452139943482873, guid: 51e05abdcb41eb141952f5c6a91bb468, type: 3}
+  Pink_Bodies:
+  - {fileID: 3865067276413815453, guid: 51e05abdcb41eb141952f5c6a91bb468, type: 3}
+  - {fileID: 7434758517283137536, guid: 51e05abdcb41eb141952f5c6a91bb468, type: 3}
+  - {fileID: 7521050263461614122, guid: 51e05abdcb41eb141952f5c6a91bb468, type: 3}
+  - {fileID: 981898182485715958, guid: 51e05abdcb41eb141952f5c6a91bb468, type: 3}
+  Purple_Bodies:
+  - {fileID: -4373809800957068274, guid: 51e05abdcb41eb141952f5c6a91bb468, type: 3}
+  - {fileID: 7783155599581846346, guid: 51e05abdcb41eb141952f5c6a91bb468, type: 3}
+  - {fileID: 3244460651873744299, guid: 51e05abdcb41eb141952f5c6a91bb468, type: 3}
+  - {fileID: -6794329504867839942, guid: 51e05abdcb41eb141952f5c6a91bb468, type: 3}
+  Red_Bodies:
+  - {fileID: 5486967885598102306, guid: 51e05abdcb41eb141952f5c6a91bb468, type: 3}
+  - {fileID: 7830079519888716845, guid: 51e05abdcb41eb141952f5c6a91bb468, type: 3}
+  - {fileID: 8659633841933682246, guid: 51e05abdcb41eb141952f5c6a91bb468, type: 3}
+  - {fileID: -3607575054123354977, guid: 51e05abdcb41eb141952f5c6a91bb468, type: 3}
+  Yellow_Bodies:
+  - {fileID: 8838755829927396585, guid: 51e05abdcb41eb141952f5c6a91bb468, type: 3}
+  - {fileID: 3470508239880705070, guid: 51e05abdcb41eb141952f5c6a91bb468, type: 3}
+  - {fileID: 5203806692237477900, guid: 51e05abdcb41eb141952f5c6a91bb468, type: 3}
+  - {fileID: 2703360082133661444, guid: 51e05abdcb41eb141952f5c6a91bb468, type: 3}
+  Blue_Hands:
+  - {fileID: -3768343302079863541, guid: 51e05abdcb41eb141952f5c6a91bb468, type: 3}
+  - {fileID: 7693259453167577906, guid: 51e05abdcb41eb141952f5c6a91bb468, type: 3}
+  - {fileID: 4547552785336839366, guid: 51e05abdcb41eb141952f5c6a91bb468, type: 3}
+  - {fileID: -2463831597455285290, guid: 51e05abdcb41eb141952f5c6a91bb468, type: 3}
+  - {fileID: -7136607361751601885, guid: 51e05abdcb41eb141952f5c6a91bb468, type: 3}
+  - {fileID: -5705736182582471283, guid: 51e05abdcb41eb141952f5c6a91bb468, type: 3}
+  Green_Hands:
+  - {fileID: 1826600907306032186, guid: 51e05abdcb41eb141952f5c6a91bb468, type: 3}
+  - {fileID: -4608974636176127200, guid: 51e05abdcb41eb141952f5c6a91bb468, type: 3}
+  - {fileID: -5446039446494618732, guid: 51e05abdcb41eb141952f5c6a91bb468, type: 3}
+  - {fileID: 5372714906379203921, guid: 51e05abdcb41eb141952f5c6a91bb468, type: 3}
+  - {fileID: 6906414167979292995, guid: 51e05abdcb41eb141952f5c6a91bb468, type: 3}
+  - {fileID: 259629167603540576, guid: 51e05abdcb41eb141952f5c6a91bb468, type: 3}
+  Pink_Hands:
+  - {fileID: 2785898358640250479, guid: 51e05abdcb41eb141952f5c6a91bb468, type: 3}
+  - {fileID: 4270103507638917259, guid: 51e05abdcb41eb141952f5c6a91bb468, type: 3}
+  - {fileID: 4942725405662159041, guid: 51e05abdcb41eb141952f5c6a91bb468, type: 3}
+  - {fileID: 7011648641570688491, guid: 51e05abdcb41eb141952f5c6a91bb468, type: 3}
+  - {fileID: 7806342711250739722, guid: 51e05abdcb41eb141952f5c6a91bb468, type: 3}
+  - {fileID: 8476073837229879887, guid: 51e05abdcb41eb141952f5c6a91bb468, type: 3}
+  Purple_Hands:
+  - {fileID: 2340871451759037293, guid: 51e05abdcb41eb141952f5c6a91bb468, type: 3}
+  - {fileID: 5984662362837436451, guid: 51e05abdcb41eb141952f5c6a91bb468, type: 3}
+  - {fileID: 6943613633325464340, guid: 51e05abdcb41eb141952f5c6a91bb468, type: 3}
+  - {fileID: -6406364528300172472, guid: 51e05abdcb41eb141952f5c6a91bb468, type: 3}
+  - {fileID: 7741677646958102886, guid: 51e05abdcb41eb141952f5c6a91bb468, type: 3}
+  - {fileID: -3300594670606610728, guid: 51e05abdcb41eb141952f5c6a91bb468, type: 3}
+  Red_Hands:
+  - {fileID: -708940084119667979, guid: 51e05abdcb41eb141952f5c6a91bb468, type: 3}
+  - {fileID: -5153531296355663566, guid: 51e05abdcb41eb141952f5c6a91bb468, type: 3}
+  - {fileID: 1361451193455659834, guid: 51e05abdcb41eb141952f5c6a91bb468, type: 3}
+  - {fileID: -3207874157549644274, guid: 51e05abdcb41eb141952f5c6a91bb468, type: 3}
+  - {fileID: -6606285500254250993, guid: 51e05abdcb41eb141952f5c6a91bb468, type: 3}
+  - {fileID: 1413668163622440313, guid: 51e05abdcb41eb141952f5c6a91bb468, type: 3}
+  Yellow_Hands:
+  - {fileID: 7936351183006556310, guid: 51e05abdcb41eb141952f5c6a91bb468, type: 3}
+  - {fileID: -5519749640918035510, guid: 51e05abdcb41eb141952f5c6a91bb468, type: 3}
+  - {fileID: 8727248684945414974, guid: 51e05abdcb41eb141952f5c6a91bb468, type: 3}
+  - {fileID: 7414122243029882987, guid: 51e05abdcb41eb141952f5c6a91bb468, type: 3}
+  - {fileID: 6827300433558471831, guid: 51e05abdcb41eb141952f5c6a91bb468, type: 3}
+  - {fileID: -6413278761340103462, guid: 51e05abdcb41eb141952f5c6a91bb468, type: 3}
+  Faces:
+  - {fileID: -8313209328564059050, guid: 51e05abdcb41eb141952f5c6a91bb468, type: 3}
+  - {fileID: -4571960450865565733, guid: 51e05abdcb41eb141952f5c6a91bb468, type: 3}
+  - {fileID: -3206648641156620497, guid: 51e05abdcb41eb141952f5c6a91bb468, type: 3}
+  - {fileID: 813083639685884561, guid: 51e05abdcb41eb141952f5c6a91bb468, type: 3}
+  - {fileID: 458440066035141456, guid: 51e05abdcb41eb141952f5c6a91bb468, type: 3}
+  - {fileID: 3910387261913038352, guid: 51e05abdcb41eb141952f5c6a91bb468, type: 3}
+  - {fileID: 3458864414789191144, guid: 51e05abdcb41eb141952f5c6a91bb468, type: 3}
+  - {fileID: -2028839517264441735, guid: 51e05abdcb41eb141952f5c6a91bb468, type: 3}
+  - {fileID: -6432318681746218697, guid: 51e05abdcb41eb141952f5c6a91bb468, type: 3}
+  - {fileID: -7564332273502018416, guid: 51e05abdcb41eb141952f5c6a91bb468, type: 3}
+  - {fileID: -5645489535874257078, guid: 51e05abdcb41eb141952f5c6a91bb468, type: 3}
+  - {fileID: -8142139483986599085, guid: 51e05abdcb41eb141952f5c6a91bb468, type: 3}
