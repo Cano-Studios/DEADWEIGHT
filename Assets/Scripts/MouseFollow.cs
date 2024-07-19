@@ -16,6 +16,7 @@ public class MouseFollow : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         rb.freezeRotation = true;
+        rb.position = circleBounds.bounds.center;
     }
 
     // Update is called once per frame
@@ -43,4 +44,5 @@ public class MouseFollow : MonoBehaviour
         // Apply the rotation to the rigidbody
         rb.rotation = angle;
     }
+    
 }
