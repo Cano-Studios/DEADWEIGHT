@@ -278,6 +278,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b9e3efb966ffb984a8ab7315f0821afa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  followSpeed: 2
+  yOffset: 1
   target: {fileID: 1473976618}
 --- !u!1 &770700020 stripped
 GameObject:
