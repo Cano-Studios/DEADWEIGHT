@@ -1,0 +1,862 @@
+fileFormatVersion: 2
+guid: f1a9164b54f628044ab60deb0f12124d
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: robot_blueBody.png
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 511
+        width: 157
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3854f894358b7ab40800000000000000
+      internalID: 5451528541811197315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_blueDamage1.png
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 439
+        width: 157
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0428b6ad4decfb40800000000000000
+      internalID: 5475512164741030923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_blueDamage2.png
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 381
+        width: 157
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4120f14c7c6fd0730800000000000000
+      internalID: 3967098184632566292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_blueDrive1.png
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 154
+        width: 158
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48192d671cdb65600800000000000000
+      internalID: 456761050844533124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_blueDrive2.png
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 6
+        width: 158
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5a0f7257addce8e0800000000000000
+      internalID: -1662710451693221284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_blueHurt.png
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 251
+        width: 157
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b33dbf0a22c2dad0800000000000000
+      internalID: -2678865342423551055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_blueJump.png
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 569
+        width: 178
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9511e58cfa65d03c0800000000000000
+      internalID: -4391758748635492007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_greenBody.png
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 145
+        width: 157
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff5097ceb6afaeef0800000000000000
+      internalID: -77974702089763329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_greenDamage1.png
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 641
+        width: 157
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e47d0791134dd160800000000000000
+      internalID: 7051866334359811298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_greenDamage2.png
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 333
+        width: 157
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a056e3b192e89570800000000000000
+      internalID: 8473771814313939107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_greenDrive1.png
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 2
+        width: 158
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ed71d51559a8b130800000000000000
+      internalID: 3582799686476594662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_greenDrive2.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6
+        width: 158
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fa3dc92944e47a30800000000000000
+      internalID: 4212242554383317746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_greenHurt.png
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 775
+        width: 157
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f05d8c4f2b41f5150800000000000000
+      internalID: 5863427998703211791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_greenJump.png
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 747
+        width: 176
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d559862dab38a680800000000000000
+      internalID: -8743673061677902376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_redBody.png
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 34
+        width: 179
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88c272f8cbee63310800000000000000
+      internalID: 1384556429085977736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_redDamage1.png
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 436
+        width: 179
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9f43d3c012d0b960800000000000000
+      internalID: 7615817939330224030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_redDamage2.png
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 306
+        width: 179
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b4c501f5a241f800800000000000000
+      internalID: 644369502171415736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_redDrive1.png
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 566
+        width: 180
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 999330d07b54ac110800000000000000
+      internalID: 1281913696439974297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_redDrive2.png
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 733
+        width: 180
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2d8292bc0f29ea30800000000000000
+      internalID: 4244975855355465002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_redHurt.png
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 164
+        width: 179
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70d09141fe0859520800000000000000
+      internalID: 2708212515255946503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_redJump.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 554
+        width: 196
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f70128226b9879980800000000000000
+      internalID: -8532199553674112897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_yellowBody.png
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 424
+        width: 183
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53695081eda30ca40800000000000000
+      internalID: 5386369879895283253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_yellowDamage1.png
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 294
+        width: 183
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd31aff43ae28bca0800000000000000
+      internalID: -6000995224514849828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_yellowDamage2.png
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 124
+        width: 183
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a07bff087a9fada00800000000000000
+      internalID: 782211983121299210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_yellowDrive1.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 402
+        width: 184
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc00d760e93083850800000000000000
+      internalID: 6356834851282026701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_yellowDrive2.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 254
+        width: 184
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b1be4429d9bee230800000000000000
+      internalID: 3670075088621711796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_yellowHurt.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 124
+        width: 183
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3efdd803f83f49e60800000000000000
+      internalID: 7968261437045727203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_yellowJump.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 718
+        width: 202
+        height: 161
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68138331fd65255b0800000000000000
+      internalID: -5381143088654175866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tracks_back1.png
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 813
+        width: 103
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 770620b6f423a1950800000000000000
+      internalID: 6420499535449186423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tracks_back2.png
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 813
+        width: 103
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b44a8534856f8690800000000000000
+      internalID: -7597742427842394952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tracks_long1.png
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 573
+        width: 125
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bc7b704548f09370800000000000000
+      internalID: 8327428687326313651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tracks_long2.png
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 77
+        width: 125
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27dfdc961df4389a0800000000000000
+      internalID: -6232049698508767886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tracks_short1.png
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 9
+        width: 103
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e3404e2f47e441f0800000000000000
+      internalID: -1061469284888198174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tracks_short2.png
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 707
+        width: 103
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8a4beef964093090800000000000000
+      internalID: -8054401605280511346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      robot_blueBody.png: 5451528541811197315
+      robot_blueDamage1.png: 5475512164741030923
+      robot_blueDamage2.png: 3967098184632566292
+      robot_blueDrive1.png: 456761050844533124
+      robot_blueDrive2.png: -1662710451693221284
+      robot_blueHurt.png: -2678865342423551055
+      robot_blueJump.png: -4391758748635492007
+      robot_greenBody.png: -77974702089763329
+      robot_greenDamage1.png: 7051866334359811298
+      robot_greenDamage2.png: 8473771814313939107
+      robot_greenDrive1.png: 3582799686476594662
+      robot_greenDrive2.png: 4212242554383317746
+      robot_greenHurt.png: 5863427998703211791
+      robot_greenJump.png: -8743673061677902376
+      robot_redBody.png: 1384556429085977736
+      robot_redDamage1.png: 7615817939330224030
+      robot_redDamage2.png: 644369502171415736
+      robot_redDrive1.png: 1281913696439974297
+      robot_redDrive2.png: 4244975855355465002
+      robot_redHurt.png: 2708212515255946503
+      robot_redJump.png: -8532199553674112897
+      robot_yellowBody.png: 5386369879895283253
+      robot_yellowDamage1.png: -6000995224514849828
+      robot_yellowDamage2.png: 782211983121299210
+      robot_yellowDrive1.png: 6356834851282026701
+      robot_yellowDrive2.png: 3670075088621711796
+      robot_yellowHurt.png: 7968261437045727203
+      robot_yellowJump.png: -5381143088654175866
+      tracks_back1.png: 6420499535449186423
+      tracks_back2.png: -7597742427842394952
+      tracks_long1.png: 8327428687326313651
+      tracks_long2.png: -6232049698508767886
+      tracks_short1.png: -1061469284888198174
+      tracks_short2.png: -8054401605280511346
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
