@@ -42,6 +42,7 @@ public class SettingsManager : MonoBehaviour
         DontDestroyOnLoad(gameObject);
         settingsPanel.SetActive(false);
         Time.timeScale = 1;
+        AudioListener.volume = 0.5f;
     }
 
     void Update()
