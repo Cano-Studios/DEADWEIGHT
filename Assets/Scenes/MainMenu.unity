@@ -122,9 +122,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
-  m_Component:
-  - component: {fileID: 47361303}
-  - component: {fileID: 47361305}
 --- !u!114 &119480673 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8410244936630347208, guid: 6c60af303260c1d469e3619df5fb781d, type: 3}
