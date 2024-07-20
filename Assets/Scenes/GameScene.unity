@@ -458,6 +458,10 @@ PrefabInstance:
       propertyPath: jumpStartTime
       value: 0.55
       objectReference: {fileID: 0}
+    - target: {fileID: 5181717012660345387, guid: 6c60af303260c1d469e3619df5fb781d, type: 3}
+      propertyPath: m_Radius
+      value: 1.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5354015619694311503, guid: 6c60af303260c1d469e3619df5fb781d, type: 3}
       propertyPath: chains.Array.data[0]
       value: 
@@ -31616,6 +31620,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 404225023130864634, guid: 13bf9b9bdc5aef841b9828421a9f228f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 184.74
+      objectReference: {fileID: 0}
+    - target: {fileID: 404225023130864634, guid: 13bf9b9bdc5aef841b9828421a9f228f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -125.9
+      objectReference: {fileID: 0}
     - target: {fileID: 5149668915009009759, guid: 13bf9b9bdc5aef841b9828421a9f228f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3.7066307
