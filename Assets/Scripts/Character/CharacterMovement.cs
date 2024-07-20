@@ -71,7 +71,7 @@ public class CharacterMovement : MonoBehaviour
             isJumping = false;
             if (Time.time - lastSmokeTime > smokeCooldown)
             {
-                ParticleManager.Instance.CreateSmoke(transform.position);
+                ParticleManager.Instance.CreateSmoke(other.GetContact(0).point);
                 lastSmokeTime = Time.time;
             }
         }else if (other.gameObject.CompareTag("Chain"))
