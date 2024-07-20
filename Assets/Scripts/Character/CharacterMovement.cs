@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class CharacterMovement : MonoBehaviour
 {
-    public Vector2 speed = new Vector2(50, 50);
+    public Vector2 speed = new Vector2(50, 100);
     public Rigidbody2D rb;
     public bool isJumping;
 
@@ -25,6 +25,18 @@ public class CharacterMovement : MonoBehaviour
         if (other.gameObject.CompareTag("Ground"))
         {
             isJumping = false;
+        }else if (other.gameObject.CompareTag("Chain"))
+        {
+            Physics2D.IgnoreCollision(other.collider, GetComponent<Collider2D>());
+        
+        }
+    }
+
+    void OnCollisionStay2D(Collision2D other)
+    {
+        if (other.gameObject.CompareTag("Ground"))
+        {
+            isJumping = false;
         }
     }
 
@@ -42,4 +54,5 @@ public class CharacterMovement : MonoBehaviour
     {
         isJumping = true;
     }
+
 }

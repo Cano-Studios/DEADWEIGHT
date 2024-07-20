@@ -8,6 +8,9 @@ public class HandsCollision : MonoBehaviour
         {
             // TODO: It would be nice if hands would collide but currently they can launch the player and do other stuff
             Physics2D.IgnoreCollision(other.collider, GetComponent<Collider2D>());
+        }else if (other.gameObject.CompareTag("Chain"))
+        {
+            Physics2D.IgnoreCollision(other.collider, GetComponent<Collider2D>());
         }
     }
 }
