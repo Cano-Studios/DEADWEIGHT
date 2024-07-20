@@ -114,7 +114,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 0.1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -242,7 +242,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0.2}
   serializedVersion: 2
-  m_Radius: 1.5
+  m_Radius: 2
 --- !u!1 &3265330464243491457
 GameObject:
   m_ObjectHideFlags: 0
@@ -410,7 +410,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 0.1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -567,7 +567,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 10
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -642,6 +642,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4244906133828299379}
   - component: {fileID: 8410244936630347208}
+  - component: {fileID: 5354015619694311503}
   m_Layer: 0
   m_Name: Hands
   m_TagString: Untagged
@@ -682,3 +683,23 @@ MonoBehaviour:
   spriteCollection: {fileID: 11400000, guid: 0adb49435fbd988448718d5e961aaa70, type: 2}
   color: 0
   hand: 0
+--- !u!114 &5354015619694311503
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6762517616109705506}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10a0506bebda95d439e96c895cc1ce49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  leftHandCollider: {fileID: 4037065109347777399}
+  rightHandCollider: {fileID: 3116495341393324273}
+  chains:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}

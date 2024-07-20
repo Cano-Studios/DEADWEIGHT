@@ -13,9 +13,11 @@ GameObject:
   - component: {fileID: 5745489333529206899}
   - component: {fileID: 1484337270298159840}
   - component: {fileID: 2687940241017133514}
-  m_Layer: 0
+  - component: {fileID: 7289827627444704288}
+  - component: {fileID: 5185564035211018665}
+  m_Layer: 3
   m_Name: Link2
-  m_TagString: Untagged
+  m_TagString: Chain
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -130,7 +132,7 @@ HingeJoint2D:
   m_BreakAction: 3
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0.03, y: -0.54}
-  m_ConnectedAnchor: {x: 0.029999955, y: 0.45999968}
+  m_ConnectedAnchor: {x: 0.030000022, y: 0.45999965}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -192,6 +194,43 @@ PolygonCollider2D:
       - {x: 0.47058824, y: 0.29411766}
       - {x: 0.29411766, y: 0.5294118}
   m_UseDelaunayMesh: 0
+--- !u!114 &7289827627444704288
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 263717847563032744}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9fe829fa85f11448ad4234d79acc81e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!233 &5185564035211018665
+HingeJoint2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 263717847563032744}
+  m_Enabled: 1
+  serializedVersion: 4
+  m_EnableCollision: 0
+  m_ConnectedRigidBody: {fileID: 6745653548139611086}
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_BreakAction: 3
+  m_AutoConfigureConnectedAnchor: 1
+  m_Anchor: {x: 0, y: 0.54}
+  m_ConnectedAnchor: {x: 0.000000020107223, y: -0.45999965}
+  m_UseMotor: 0
+  m_Motor:
+    m_MotorSpeed: 0
+    m_MaximumMotorForce: 10000
+  m_UseLimits: 0
+  m_AngleLimits:
+    m_LowerAngle: 0
+    m_UpperAngle: 359
 --- !u!1 &2849906587321513283
 GameObject:
   m_ObjectHideFlags: 0
@@ -205,9 +244,11 @@ GameObject:
   - component: {fileID: 5852359221159746879}
   - component: {fileID: 5709535329317318391}
   - component: {fileID: 6869435507206017346}
-  m_Layer: 0
+  - component: {fileID: 5341919649659390084}
+  - component: {fileID: 3067103746951546108}
+  m_Layer: 3
   m_Name: Link1
-  m_TagString: Untagged
+  m_TagString: Chain
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -322,7 +363,7 @@ HingeJoint2D:
   m_BreakAction: 3
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0.03, y: -0.54}
-  m_ConnectedAnchor: {x: 0.029999955, y: 0.45999974}
+  m_ConnectedAnchor: {x: 0.030000022, y: 0.45999956}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -384,6 +425,43 @@ PolygonCollider2D:
       - {x: 0.47058824, y: 0.29411766}
       - {x: 0.29411766, y: 0.5294118}
   m_UseDelaunayMesh: 0
+--- !u!114 &5341919649659390084
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2849906587321513283}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9fe829fa85f11448ad4234d79acc81e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!233 &3067103746951546108
+HingeJoint2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2849906587321513283}
+  m_Enabled: 1
+  serializedVersion: 4
+  m_EnableCollision: 0
+  m_ConnectedRigidBody: {fileID: 5745489333529206899}
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_BreakAction: 3
+  m_AutoConfigureConnectedAnchor: 1
+  m_Anchor: {x: 0, y: 0.59}
+  m_ConnectedAnchor: {x: 0.000000017921657, y: -0.40999973}
+  m_UseMotor: 0
+  m_Motor:
+    m_MotorSpeed: 0
+    m_MaximumMotorForce: 10000
+  m_UseLimits: 0
+  m_AngleLimits:
+    m_LowerAngle: 0
+    m_UpperAngle: 359
 --- !u!1 &3813517807886947306
 GameObject:
   m_ObjectHideFlags: 0
@@ -397,9 +475,11 @@ GameObject:
   - component: {fileID: 6745653548139611086}
   - component: {fileID: 6089967137727862560}
   - component: {fileID: 3763025099328008025}
-  m_Layer: 0
+  - component: {fileID: 5164897548559528493}
+  - component: {fileID: 2891829626094567589}
+  m_Layer: 3
   m_Name: Link3
-  m_TagString: Untagged
+  m_TagString: Chain
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -514,7 +594,7 @@ HingeJoint2D:
   m_BreakAction: 3
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0.03, y: -0.54}
-  m_ConnectedAnchor: {x: 0.029999955, y: 0.45999968}
+  m_ConnectedAnchor: {x: 0.030000022, y: 0.45999965}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -576,6 +656,43 @@ PolygonCollider2D:
       - {x: 0.47058824, y: 0.29411766}
       - {x: 0.29411766, y: 0.5294118}
   m_UseDelaunayMesh: 0
+--- !u!114 &5164897548559528493
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3813517807886947306}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9fe829fa85f11448ad4234d79acc81e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!233 &2891829626094567589
+HingeJoint2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3813517807886947306}
+  m_Enabled: 1
+  serializedVersion: 4
+  m_EnableCollision: 0
+  m_ConnectedRigidBody: {fileID: 1429194329543327253}
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_BreakAction: 3
+  m_AutoConfigureConnectedAnchor: 1
+  m_Anchor: {x: 0, y: 0.52}
+  m_ConnectedAnchor: {x: 0.000000020981453, y: -0.47999972}
+  m_UseMotor: 0
+  m_Motor:
+    m_MotorSpeed: 0
+    m_MaximumMotorForce: 10000
+  m_UseLimits: 0
+  m_AngleLimits:
+    m_LowerAngle: 0
+    m_UpperAngle: 359
 --- !u!1 &4457961526835689391
 GameObject:
   m_ObjectHideFlags: 0
@@ -589,9 +706,11 @@ GameObject:
   - component: {fileID: 1429194329543327253}
   - component: {fileID: 3413920936499129655}
   - component: {fileID: 4036212255687122602}
-  m_Layer: 0
+  - component: {fileID: 1399260115430975344}
+  - component: {fileID: 6867664629197446353}
+  m_Layer: 3
   m_Name: ChainEnd
-  m_TagString: Untagged
+  m_TagString: Chain
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -651,7 +770,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: -834399407, guid: 65116b3c2503c5f42a182fbf6792ecb3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 1
@@ -699,14 +818,14 @@ HingeJoint2D:
   m_GameObject: {fileID: 4457961526835689391}
   m_Enabled: 1
   serializedVersion: 4
-  m_EnableCollision: 1
+  m_EnableCollision: 0
   m_ConnectedRigidBody: {fileID: 6745653548139611086}
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
   m_BreakAction: 0
   m_AutoConfigureConnectedAnchor: 1
-  m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: -0.000000043711378, y: 0.99999976}
+  m_Anchor: {x: 0, y: -0.5}
+  m_ConnectedAnchor: {x: -0.000000021855682, y: 0.49999967}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -766,6 +885,43 @@ PolygonCollider2D:
       - {x: 0.5294118, y: -0.3529412}
       - {x: 0.5294118, y: 0.5294118}
   m_UseDelaunayMesh: 0
+--- !u!114 &1399260115430975344
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4457961526835689391}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9fe829fa85f11448ad4234d79acc81e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!233 &6867664629197446353
+HingeJoint2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4457961526835689391}
+  m_Enabled: 1
+  serializedVersion: 4
+  m_EnableCollision: 0
+  m_ConnectedRigidBody: {fileID: 0}
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_BreakAction: 3
+  m_AutoConfigureConnectedAnchor: 1
+  m_Anchor: {x: 0, y: 0.51}
+  m_ConnectedAnchor: {x: -0.2974999, y: 0.03999996}
+  m_UseMotor: 0
+  m_Motor:
+    m_MotorSpeed: 0
+    m_MaximumMotorForce: 10000
+  m_UseLimits: 0
+  m_AngleLimits:
+    m_LowerAngle: 0
+    m_UpperAngle: 359
 --- !u!1 &5456675592308450325
 GameObject:
   m_ObjectHideFlags: 0
@@ -777,7 +933,7 @@ GameObject:
   - component: {fileID: 1916745226929259308}
   m_Layer: 0
   m_Name: Chain
-  m_TagString: Untagged
+  m_TagString: Chain
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -792,7 +948,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.75, y: 0.75, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 5555981314135091005}
@@ -815,9 +971,11 @@ GameObject:
   - component: {fileID: 8514936585471435586}
   - component: {fileID: 5422840375622805619}
   - component: {fileID: 4155984198209678175}
-  m_Layer: 0
+  - component: {fileID: 5911802074717876311}
+  - component: {fileID: 4480791472702840357}
+  m_Layer: 3
   m_Name: ChainStart
-  m_TagString: Untagged
+  m_TagString: Chain
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -877,7 +1035,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: -834399407, guid: 65116b3c2503c5f42a182fbf6792ecb3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -925,14 +1083,14 @@ HingeJoint2D:
   m_GameObject: {fileID: 8333552627152969179}
   m_Enabled: 1
   serializedVersion: 4
-  m_EnableCollision: 1
+  m_EnableCollision: 0
   m_ConnectedRigidBody: {fileID: 0}
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
   m_BreakAction: 0
   m_AutoConfigureConnectedAnchor: 1
-  m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 0, y: 0}
+  m_Anchor: {x: 0, y: -0.42}
+  m_ConnectedAnchor: {x: 0.5549998, y: 0.00999999}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -992,3 +1150,40 @@ PolygonCollider2D:
       - {x: 0.5294118, y: -0.3529412}
       - {x: 0.5294118, y: 0.5294118}
   m_UseDelaunayMesh: 0
+--- !u!114 &5911802074717876311
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8333552627152969179}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9fe829fa85f11448ad4234d79acc81e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!233 &4480791472702840357
+HingeJoint2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8333552627152969179}
+  m_Enabled: 1
+  serializedVersion: 4
+  m_EnableCollision: 0
+  m_ConnectedRigidBody: {fileID: 5852359221159746879}
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_BreakAction: 3
+  m_AutoConfigureConnectedAnchor: 1
+  m_Anchor: {x: 0, y: 0.48}
+  m_ConnectedAnchor: {x: 0.000000022729907, y: -0.5199997}
+  m_UseMotor: 0
+  m_Motor:
+    m_MotorSpeed: 0
+    m_MaximumMotorForce: 10000
+  m_UseLimits: 0
+  m_AngleLimits:
+    m_LowerAngle: 0
+    m_UpperAngle: 359

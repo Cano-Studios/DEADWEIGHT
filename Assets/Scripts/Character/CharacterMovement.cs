@@ -45,8 +45,7 @@ public class CharacterMovement : MonoBehaviour
         if (other.gameObject.CompareTag("Ground"))
         {
             // coyote jump
-            isJumping = true;
-            Invoke("SetJumping", 0.5f);
+            Invoke(nameof(SetJumping), 0.5f);
         }
     }
 

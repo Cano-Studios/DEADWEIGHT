@@ -11,6 +11,9 @@ public class HandsCollision : MonoBehaviour
         }else if (other.gameObject.CompareTag("Chain"))
         {
             Physics2D.IgnoreCollision(other.collider, GetComponent<Collider2D>());
+        }else if (other.gameObject.CompareTag("Robot"))
+        {
+            Physics2D.IgnoreCollision(other.collider, GetComponent<Collider2D>());
         }
     }
 }

@@ -5,11 +5,13 @@ TagManager:
   serializedVersion: 2
   tags:
   - Ground
+  - Chain
+  - Robot
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Chain
   - Water
   - UI
   - 
