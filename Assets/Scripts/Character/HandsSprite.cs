@@ -15,6 +15,7 @@ public class HandsSprite : MonoBehaviour
     {
         leftHandRenderer = transform.Find("LeftHand").GetComponent<SpriteRenderer>();
         rightHandRenderer = transform.Find("RightHand").GetComponent<SpriteRenderer>();
+        LoadPrefs();
         UpdateSprite();
     }
 
@@ -64,5 +65,12 @@ public class HandsSprite : MonoBehaviour
         // hand shape
         leftHandRenderer.sprite = sprites[(int)hand];
         rightHandRenderer.sprite = sprites[(int)hand];
+    }
+
+    private void LoadPrefs()
+    {
+        color = (CharacterColor)PlayerPrefs.GetInt("color", 0);
+        hand = (CharacterHand)PlayerPrefs.GetInt("hand", 0);
+
     }
 }

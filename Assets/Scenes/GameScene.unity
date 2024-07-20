@@ -395,6 +395,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 2066241940144816698, guid: 6c60af303260c1d469e3619df5fb781d, type: 3}
+      propertyPath: m_Mass
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 2066241940144816698, guid: 6c60af303260c1d469e3619df5fb781d, type: 3}
       propertyPath: m_Interpolate
       value: 1
       objectReference: {fileID: 0}
@@ -441,6 +445,18 @@ PrefabInstance:
     - target: {fileID: 3265330464243491457, guid: 6c60af303260c1d469e3619df5fb781d, type: 3}
       propertyPath: m_Name
       value: Character
+      objectReference: {fileID: 0}
+    - target: {fileID: 4045432256612683260, guid: 6c60af303260c1d469e3619df5fb781d, type: 3}
+      propertyPath: speed.y
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4045432256612683260, guid: 6c60af303260c1d469e3619df5fb781d, type: 3}
+      propertyPath: isJumping
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4045432256612683260, guid: 6c60af303260c1d469e3619df5fb781d, type: 3}
+      propertyPath: jumpStartTime
+      value: 0.4
       objectReference: {fileID: 0}
     - target: {fileID: 5354015619694311503, guid: 6c60af303260c1d469e3619df5fb781d, type: 3}
       propertyPath: chains.Array.data[0]
@@ -1917,6 +1933,7 @@ GameObject:
   - component: {fileID: 1621214514}
   - component: {fileID: 1621214513}
   - component: {fileID: 1621214512}
+  - component: {fileID: 1621214515}
   m_Layer: 0
   m_Name: Foreground
   m_TagString: Ground
@@ -6106,7 +6123,7 @@ CompositeCollider2D:
     serializedVersion: 2
     m_Bits: 4294967295
   m_IsTrigger: 0
-  m_UsedByEffector: 0
+  m_UsedByEffector: 1
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   m_GeometryType: 1
@@ -6394,6 +6411,25 @@ TilemapCollider2D:
   m_MaximumTileChangeCount: 1000
   m_ExtrusionFactor: 0
   m_UseDelaunayMesh: 0
+--- !u!251 &1621214515
+PlatformEffector2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1621214508}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RotationalOffset: 0
+  m_UseOneWay: 0
+  m_UseOneWayGrouping: 0
+  m_SurfaceArc: 180
+  m_UseSideFriction: 0
+  m_UseSideBounce: 0
+  m_SideArc: 1
 --- !u!1 &1753367809
 GameObject:
   m_ObjectHideFlags: 0

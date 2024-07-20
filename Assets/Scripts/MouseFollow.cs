@@ -27,6 +27,7 @@ public class MouseFollow : MonoBehaviour
         {
             mousePos = circleBounds.bounds.ClosestPoint(mousePos);
         }
+        
         position = Vector2.Lerp(transform.position, mousePos, moveSpeed);
     }
 

@@ -13,6 +13,7 @@ public class BodySprite : MonoBehaviour
     private void Awake()
     {
         bodyRenderer = GetComponent<SpriteRenderer>();
+        LoadPrefs();
         UpdateSprite();
     }
 
@@ -62,5 +63,10 @@ public class BodySprite : MonoBehaviour
 
         //color
         bodyRenderer.sprite = sprites[(int)shape];
+    }
+
+    void LoadPrefs(){
+        color = (CharacterColor)PlayerPrefs.GetInt("color", 0);
+        shape = (CharacterShape)PlayerPrefs.GetInt("shape", 0);
     }
 }
