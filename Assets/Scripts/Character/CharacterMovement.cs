@@ -11,7 +11,7 @@ public class CharacterMovement : MonoBehaviour
     private float jumpBufferCounter;
 
 
-    // Coyote jump based off @see:https://www.youtube.com/watch?v=RFix_Kg2Di0&t=153s
+    // Coyote jump based off @see: https://www.youtube.com/watch?v=RFix_Kg2Di0&t=153s
     void Start()
     {
         rb.velocity = Vector2.zero;
