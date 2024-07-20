@@ -1,5 +1,6 @@
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using System;
 
 public class CharacterSelector : MonoBehaviour
@@ -92,5 +93,12 @@ public class CharacterSelector : MonoBehaviour
         }
 
         hands.SetHand((CharacterHand)handIndex);
+    }
+
+    public void StartGame(){
+        PlayerPrefs.SetInt("color", (int)body.color);
+        PlayerPrefs.SetInt("shape", (int)body.shape);
+        PlayerPrefs.SetInt("hand", (int)hands.hand);
+        SceneManager.LoadScene(1);
     }
 }
