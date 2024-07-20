@@ -6,6 +6,8 @@ public class ChainDrag : MonoBehaviour
     private Vector2 mousePosition;
     private Rigidbody2D rb;
     private Rigidbody2D rbToFollow;
+    [SerializeField]
+    private float throwValue;
 
     void Start()
     {
@@ -28,7 +30,10 @@ public class ChainDrag : MonoBehaviour
     {
         if (isDragging)
         {
-            rb.position = rbToFollow.position;
+            rb.velocity = (rbToFollow.position - rb.position) * throwValue;
+            //rb.position = rbToFollow.position;
         }
     }
+
+    
 }

@@ -5,10 +5,13 @@ public class CharacterMovement : MonoBehaviour
     public Vector2 speed = new Vector2(50, 100);
     public Rigidbody2D rb;
     public bool isJumping = false;
-    private float coyoteTime = 0.2f;
+    public bool isGrounded = false;
+    private float coyoteTime = 0.1f;
     private float coyoteTimeCounter;
     private float jumpBufferTime = 0.2f;
     private float jumpBufferCounter;
+    public float jumpStartTime;
+    private float jumpTime;
 
 
     // Coyote jump based off @see: https://www.youtube.com/watch?v=RFix_Kg2Di0&t=153s
@@ -30,9 +33,12 @@ public class CharacterMovement : MonoBehaviour
         else
             coyoteTimeCounter = coyoteTime;
 
-        // Update jump buffer timerr
-        if (Input.GetButtonDown("Jump"))
+        // Update jump buffer timer
+        if (Input.GetButtonDown("Jump") && isGrounded)
+        {
             jumpBufferCounter = jumpBufferTime;
+            jumpTime = jumpStartTime;
+        }
         else
             jumpBufferCounter -= Time.deltaTime;
 
@@ -42,12 +48,24 @@ public class CharacterMovement : MonoBehaviour
             isJumping = true;
             jumpBufferCounter = 0f;
         }
+
+        // charge jump
+        if(Input.GetButton("Jump") && isJumping)
+        {
+            if (jumpTime > 0)
+            {
+                rb.velocity = new Vector2(rb.velocity.x, speed.y);
+                jumpTime -= Time.deltaTime;
+            
+            }
+        }
     }
 
     void OnCollisionEnter2D(Collision2D other)
     {
         if (other.gameObject.CompareTag("Ground"))
         {
+            isGrounded = true;
             isJumping = false;
         }else if (other.gameObject.CompareTag("Chain"))
         {
@@ -59,14 +77,16 @@ public class CharacterMovement : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Ground"))
         {
+            isGrounded = true;
             isJumping = false;
         }
     }
 
     void OnCollisionExit2D(Collision2D other)
     {
-        if (other.gameObject.CompareTag("Ground"))
+        if (other.gameObject.CompareTag("Ground") && !isJumping)
         {
+            isGrounded = false;
             isJumping = true;
         }
     }
