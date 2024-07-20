@@ -61,12 +61,17 @@ public class CharacterMovement : MonoBehaviour
             
             }
         }
+
+        if (Input.GetButtonUp("Jump"))
+        {
+            jumpTime = 0;
+        }
     }
 
     void OnCollisionEnter2D(Collision2D other)
     {
         if (other.gameObject.CompareTag("Ground"))
-        {
+        {   
             isGrounded = true;
             isJumping = false;
             if (Time.time - lastSmokeTime > smokeCooldown)
