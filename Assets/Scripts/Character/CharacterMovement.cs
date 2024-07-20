@@ -12,6 +12,8 @@ public class CharacterMovement : MonoBehaviour
     private float jumpBufferCounter;
     public float jumpStartTime;
     private float jumpTime;
+    private float lastSmokeTime = -1f;
+    public static float smokeCooldown = 1f;
 
 
     // Coyote jump based off @see: https://www.youtube.com/watch?v=RFix_Kg2Di0&t=153s
@@ -67,6 +69,11 @@ public class CharacterMovement : MonoBehaviour
         {
             isGrounded = true;
             isJumping = false;
+            if (Time.time - lastSmokeTime > smokeCooldown)
+            {
+                ParticleManager.Instance.CreateSmoke(transform.position);
+                lastSmokeTime = Time.time;
+            }
         }else if (other.gameObject.CompareTag("Chain"))
         {
             Physics2D.IgnoreCollision(other.collider, GetComponent<Collider2D>());
