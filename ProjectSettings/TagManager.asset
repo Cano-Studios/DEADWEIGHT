@@ -9,6 +9,7 @@ TagManager:
   - Robot
   - Wall
   - Settings
+  - WinArea
   layers:
   - Default
   - TransparentFX
