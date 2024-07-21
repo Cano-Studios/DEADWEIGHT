@@ -12,6 +12,8 @@ public class AudioManager : MonoBehaviour
     AudioSource gameMusic;
     [SerializeField, Tooltip("Jump sound effect")]
     AudioSource jumpSound;
+    [SerializeField, Tooltip("Victory Sound Effect")]
+    AudioSource victorySound;
     
     public static AudioManager Instance
     {
@@ -84,6 +86,20 @@ public class AudioManager : MonoBehaviour
         }else {
             jumpSound.Stop();
             jumpSound.Play();
+        }
+    }
+
+    public void PlayVictorySound()
+    {
+        if (!victorySound.isPlaying)
+        {
+            //gameMusic.Stop();
+            victorySound.Play();
+        }
+        else
+        {
+            victorySound.Stop();
+            victorySound.Play();
         }
     }
 }

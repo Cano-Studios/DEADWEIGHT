@@ -36,6 +36,7 @@ public class GameManager : MonoBehaviour
     public void ShowWinScreen()
     {
         winScreen.SetActive(true);
+        AudioManager.Instance.PlayVictorySound();
         Time.timeScale = 0;
     }
 
