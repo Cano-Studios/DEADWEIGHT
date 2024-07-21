@@ -3925,14 +3925,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1525018946546762836, guid: 6c60af303260c1d469e3619df5fb781d, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2066241940144816698, guid: 6c60af303260c1d469e3619df5fb781d, type: 3}
-      propertyPath: m_BodyType
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 3190655668189351896, guid: 6c60af303260c1d469e3619df5fb781d, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -3976,10 +3968,6 @@ PrefabInstance:
     - target: {fileID: 3265330464243491457, guid: 6c60af303260c1d469e3619df5fb781d, type: 3}
       propertyPath: m_Name
       value: Character
-      objectReference: {fileID: 0}
-    - target: {fileID: 4045432256612683260, guid: 6c60af303260c1d469e3619df5fb781d, type: 3}
-      propertyPath: m_Enabled
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4034,13 +4022,13 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1632565878079844182, guid: 1bfc06325c1e0894b9eae8e9a9bbad0c, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5110335437665140993, guid: 1bfc06325c1e0894b9eae8e9a9bbad0c, type: 3}
       propertyPath: m_Name
       value: AudioManager
-      objectReference: {fileID: 0}
-    - target: {fileID: 6314100771697828623, guid: 1bfc06325c1e0894b9eae8e9a9bbad0c, type: 3}
-      propertyPath: m_Volume
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

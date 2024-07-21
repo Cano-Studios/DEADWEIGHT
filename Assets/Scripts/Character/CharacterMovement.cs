@@ -46,6 +46,7 @@ public class CharacterMovement : MonoBehaviour
 
         if (jumpBufferCounter > 0f && (coyoteTimeCounter > 0f || !isJumping))
         {
+            AudioManager.Instance.PlayJumpSound();
             rb.velocity = new Vector2(rb.velocity.x, speed.y);
             isJumping = true;
             jumpBufferCounter = 0f;

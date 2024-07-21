@@ -10,6 +10,9 @@ public class AudioManager : MonoBehaviour
     AudioSource mainMenuMusic;
     [SerializeField]
     AudioSource gameMusic;
+    [SerializeField, Tooltip("Jump sound effect")]
+    AudioSource jumpSound;
+    
     public static AudioManager Instance
     {
         get
@@ -70,6 +73,17 @@ public class AudioManager : MonoBehaviour
             {
                 gameMusic.Play();
             }
+        }
+    }
+
+    public void PlayJumpSound()
+    {
+        if (!jumpSound.isPlaying)
+        {
+            jumpSound.Play();
+        }else {
+            jumpSound.Stop();
+            jumpSound.Play();
         }
     }
 }
