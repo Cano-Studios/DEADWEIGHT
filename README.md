@@ -4,12 +4,52 @@
 
 You are working your 9-5 construction job but your robot assistant's battery **died!** Your corporate bosses are insistent on keeping all the batteries at the top of the site, so now you're **stuck climbing the tower** to charge your robot back up....
 
-> [!IMPORTANT]
->> This game was developed in ~30 hours for the 2024 [Kenney Jam](https://itch.io/jam/kenney-jam-2024). The theme for this jam was Connection and we were required to only use assets made by **[Kenney](https://kenney.nl/)** (excluding *fonts & sounds*). We plan on polishing the mechanics and visuals and expanding in the future.
->> 
->> <img src="https://github.com/user-attachments/assets/437899a2-20bf-4dcd-8acb-65e8efc1e50e" width="700" />
->>
->> [Image Source](https://itch.io/jam/kenney-jam-2024)
+### Background Info
+
+This game was developed in **~30 hours** for the **2024 [Kenney Jam](https://itch.io/jam/kenney-jam-2024)**. The theme for this jam was **Connection** and we were required to *only* use assets made by **[Kenney](https://kenney.nl/)** (excluding *fonts & sounds*). We plan on polishing the mechanics and visuals and expanding in the future.
+
+<details>
+<summary><h4>Rules</h4></summary>
+<pre><code>Theme: Connection
+
+Create a game using only game assets made by Kenney. You can use, edit, and remix them however you like (see the rules below).
+A theme is announced at the beginning of the jam. Join our Discord channel and use hashtag #kenneyjam on social media.
+
+1. How long does the jam take?
+   You'll have 48 hours to develop your game from start to finish within the dates and times shown above (in your local time). Remember, you'll need to submit your game within this time frame too
+2. What are the limitations?
+   You must only use game assets (2D sprites, 3D models, and textures) available on the Kenney website, see the FAQ below for asset usage
+3. Is there a theme?
+   Yes, the theme of the jam will be announced at the start of the event. You will be judged on how well your game fits the theme
+4. Can I work as a team?
+   Yes, you're allowed to work alone or in a team (no size restriction) using any game engine or platform
+5. Should my game work in the browser?
+   You can target any device or hardware, however in some cases less people will be able to play your entry
+6. Can I take audio files from other sources, or create my own?
+   Yes, audio (sound effects and music) plus fonts can be custom made or gathered from other sources
+7. Is other Kenney software allowed?
+   No, only pre-made game assets. So unfortunately you can't use Asset Forge, Kenney Shape or Avatar/Creature/Ship Mixer
+8. Can I continue development after the jam?
+   Absolutely, you hold all rights to any submission you make and all the assets Kenney made are public domain licensed
+9. Should I share the source of my game?
+   Uploading the source of your submission is encouraged, but absolutely not required
+10. Can I add the Kenney Jam logo to my submission?
+    Yes, feel free to include the logo seen on top of this page to your splash or game. Please don't use the Kenney (without "Jam") logo
+</code></pre>
+</details>
+
+You can find the game submission on [our itch.io](https://cano-studios.itch.io/deadweight).
+
+<br />
+
+<img src="https://github.com/user-attachments/assets/437899a2-20bf-4dcd-8acb-65e8efc1e50e" width="700" />
+
+> [!NOTE]
+> Image [Source](https://itch.io/jam/kenney-jam-2024)
+
+<br />
+
+----
 
 ### Main Menu
 
@@ -52,16 +92,16 @@ You are working your 9-5 construction job but your robot assistant's battery **d
 >> <video src="https://github.com/user-attachments/assets/2c4dd32e-d30b-4851-afdb-e0937dffae40" controls width="250"/>
 >> </details>
 
-</details>
+----
 
-### Team
+## Team
 - **Noah**
   - [GitHub](https://github.com/NoahGJAC)
   - [itch.io](https://noahgjac.itch.io/)
 - **Carson**
   - [GitHub](https://github.com/carsonSgit)
 
-### Credits
+## Credits
 <a href="credits" />
 
 - **Main Menu Soundtrack:** *["Gonna Start" Kevin MacLeod](https://incompetech.com/).*
