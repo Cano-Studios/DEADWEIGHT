@@ -778,7 +778,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -45.625}
+  m_AnchoredPosition: {x: 0, y: -0.000019073}
   m_SizeDelta: {x: 1087.31, y: 988.74}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &364079226
@@ -794,7 +794,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.9019608}
+  m_Color: {r: 0.6037736, g: 0.6037736, b: 0.6037736, a: 0.5882353}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1308,7 +1308,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: a3e601c236161ad4198e19dd2affad45, type: 3}
-    m_FontSize: 100
+    m_FontSize: 50
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -1708,7 +1708,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.3254717, g: 1, b: 0.3863273, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1728,7 +1728,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: <color=#ffffff>You WIN!</color>
+  m_Text: <color=#53FF63>You WIN!</color>
 --- !u!222 &749320870
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2286,8 +2286,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 18.269812, y: 134.10907}
-  m_SizeDelta: {x: 801.1384, y: 231.2603}
+  m_AnchoredPosition: {x: 0, y: 109}
+  m_SizeDelta: {x: 428.3276, y: 116.1528}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &968923067
 MonoBehaviour:
@@ -40406,7 +40406,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000019073, y: 114.625}
+  m_AnchoredPosition: {x: 0.000019073, y: 119}
   m_SizeDelta: {x: 1087.3022, y: 517.5025}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2098851186
@@ -40442,8 +40442,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: <color=#ffffff>You managed to make it to the top and charge your robot
-    companion Thank you for playing!</color>
+  m_Text: <color=#ffffff>You made it to the top and charged your robot companion!
+    Now get back to work...</color>
 --- !u!222 &2098851187
 CanvasRenderer:
   m_ObjectHideFlags: 0
