@@ -16,6 +16,7 @@ public class HandsSprite : MonoBehaviour
         leftHandRenderer = transform.Find("LeftHand").GetComponent<SpriteRenderer>();
         rightHandRenderer = transform.Find("RightHand").GetComponent<SpriteRenderer>();
         LoadPrefs();
+        hand = CharacterHand.Open;
         UpdateSprite();
     }
 
@@ -72,5 +73,27 @@ public class HandsSprite : MonoBehaviour
         color = (CharacterColor)PlayerPrefs.GetInt("color", 0);
         hand = (CharacterHand)PlayerPrefs.GetInt("hand", 0);
 
+    }
+
+    void Update()
+    {
+        if (Input.GetMouseButtonDown(0))
+        {
+            if (hand == CharacterHand.Open)
+            {
+                hand = CharacterHand.Fist;
+            }
+            else
+            {
+                hand = CharacterHand.Open;
+            }
+            UpdateSprite();
+        }
+
+        if(Input.GetMouseButtonUp(0))
+        {
+            hand = CharacterHand.Open;
+            UpdateSprite();
+        }
     }
 }
