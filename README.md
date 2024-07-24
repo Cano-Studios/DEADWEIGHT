@@ -1,15 +1,15 @@
 ![DEADWEIGHT_WideThumbnail](https://github.com/user-attachments/assets/8b5c0c5e-8a62-4995-9f29-b5f7f44fd6fb)
 
-## Welcome to DEADWEIGHT
+## 🎮 Welcome to DEADWEIGHT
 
-You are working your 9-5 construction job but your robot assistant's battery **died!** Your corporate bosses are insistent on keeping all the batteries at the top of the site, so now you're **stuck climbing the tower** to charge your robot back up....
+You are working your 9-5 construction job but your robot assistant's battery **died!** ⚡ Your corporate bosses are insistent on keeping all the batteries at the top of the site, so now you're **stuck climbing the tower** to charge your robot back up.... 🏗️🤖
 
-### Background Info
+### 📝 Background Info
 
-This game was developed in **~30 hours** for the **2024 [Kenney Jam](https://itch.io/jam/kenney-jam-2024)**. The theme for this jam was **Connection** and we were required to *only* use assets made by **[Kenney](https://kenney.nl/)** (excluding *fonts & sounds*). We plan on polishing the mechanics and visuals and expanding in the future.
+This game was developed in **~30 hours** ⏱️ for the **2024 [Kenney Jam](https://itch.io/jam/kenney-jam-2024)**. The theme for this jam was **Connection** and we were required to *only* use assets made by **[Kenney](https://kenney.nl/)** (excluding *fonts & sounds*). We plan on polishing the mechanics and visuals and expanding in the future. 🎨🔧
 
 <details>
-<summary><h4>Rules</h4></summary>
+<summary><h4>📜 Rules</h4></summary>
 <pre><code>Theme: Connection
 
 Create a game using only game assets made by Kenney. You can use, edit, and remix them however you like (see the rules below).
@@ -38,7 +38,7 @@ A theme is announced at the beginning of the jam. Join our Discord channel and u
 </code></pre>
 </details>
 
-You can find the game submission on [our itch.io](https://cano-studios.itch.io/deadweight).
+You can find the game submission on [our itch.io](https://cano-studios.itch.io/deadweight). 🌐
 
 <br />
 
@@ -51,15 +51,15 @@ You can find the game submission on [our itch.io](https://cano-studios.itch.io/d
 
 ----
 
-### Main Menu
+### 🕹️ Main Menu
 
 #### Features
 
-- **Character Selector**
+- **Character Selector** 👤🎨
   - Choose your character's colour & shape!
-- **Credits**
+- **Credits** 🎥
   - We couldn't have made this game without the assets provided by talented creators! We also have the [credits](#credits) in this README.
-- **Settings/Controls**
+- **Settings/Controls** ⚙️
   - Before you hop into the game, it's important to know how to play.
   - *The settings are also accessible when in-game, just wanted to make that clear...*
 
@@ -67,14 +67,14 @@ You can find the game submission on [our itch.io](https://cano-studios.itch.io/d
 
 #### Settings/Controls
 
-- **Move** - `A` and `D` **OR** `Left` and `Right` arrow
-- **Jump** - `Space` (*Hold space for charged jump*)
-- **Menu/Settings** - `Escape`
-- **Drag Chain** - *Hold* `Left click` and *drag*
+- **Move** - `A` and `D` **OR** `Left` and `Right` arrow  🏃
+- **Jump** - `Space` (*Hold space for charged jump*) 🚀
+- **Menu/Settings** - `Escape` ⚙️
+- **Drag Chain** - *Hold* `Left click` and *drag* 🔗
   
 > <img src="https://github.com/user-attachments/assets/2bf3f8de-efb4-4ad4-85f7-eb8aeec7e993" width="500" />
 
-### DEADWEIGHT Gameplay
+### 🎮 DEADWEIGHT Gameplay 
 
 > <img src="https://github.com/user-attachments/assets/c3dfc0e0-db92-4a85-b7b5-bbc339802cbe" width="500" />
 >
@@ -94,14 +94,14 @@ You can find the game submission on [our itch.io](https://cano-studios.itch.io/d
 
 ----
 
-## Team
-- **Noah**
+## 👥 Team
+- **Noah** 💻
   - [GitHub](https://github.com/NoahGJAC)
   - [itch.io](https://noahgjac.itch.io/)
-- **Carson**
+- **Carson** 💻
   - [GitHub](https://github.com/carsonSgit)
 
-## Credits
+## 🙏 Credits
 <a href="credits" />
 
 - **Main Menu Soundtrack:** *["Gonna Start" Kevin MacLeod](https://incompetech.com/).*
